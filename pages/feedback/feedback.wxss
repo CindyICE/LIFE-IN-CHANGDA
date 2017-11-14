@@ -1,0 +1,147 @@
+/* pages/feedback/feedback.wxss */page {
+  background-color: #ebebeb;
+}
+
+.section {
+  margin-bottom: 20rpx;
+}
+
+.textBox {
+  margin: 20rpx;
+  width: 690rpx;
+  background-color: #fff;
+  padding: 10rpx;
+}
+
+.submitBtn {
+  margin-top: 20rpx;
+  margin-right: 10rpx;
+  margin-left: 10rpx;
+}
+
+.feed-f {
+  width: 750rpx;
+  font-size: 40rpx;
+  font-family: "微软雅黑";
+  text-align: center;
+  letter-spacing: 15rpx;
+  margin: 10rpx 20rpx;
+  color: #666;
+}
+.feed-l {
+  width: 710rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-bottom: 15rpx;
+  padding: 0rpx;
+  display: flex;
+  flex-direction: row;
+}
+.right-box{
+    flex: 1;
+    margin-top: 15rpx;
+}
+.feed-l .pic {
+  width: 85rpx;
+  height: 85rpx;
+  margin: 15rpx;
+  border-radius: 50%;
+}
+.feed-l .feedname {
+  font-size: 30rpx;
+  margin-bottom: 10rpx;
+  font-family: "微软雅黑";
+  letter-spacing: 3rpx;
+  color: black;
+}
+.feed-l .feedcontent {
+  font-size: 26rpx;
+  font-family: "微软雅黑";
+  letter-spacing: 4rpx;
+  color: #000;
+}
+.feed-l .feedtime {
+  margin-top: 10rpx;
+  right: 0;
+  margin-right: 20rpx;
+  font-size: 18rpx;
+  font-family: "微软雅黑";
+  color: #666;
+  float: right;
+}
+.feed-l .feedback {
+  margin-top: 3rpx;
+  margin-right: 50rpx;
+  right: 0;
+  color: #1C7FBF;
+  font-size: 30rpx;
+  font-family: "微软雅黑";
+  float: right;
+}
+.back-box{
+  float: right;
+  width: 100%;
+  word-break:break-all;
+  word-wrap:break-word;
+  font-size: 27rpx;
+  font-family: "微软雅黑";
+  letter-spacing: 4rpx;
+  color: #666;
+}
+.line{
+  width:100%;
+  height:2rpx;
+  background-color: #c8c8c8;
+  margin: 25rpx 0 -10rpx 0;
+}
+
+
+.back-green{
+  width: 9rpx;
+  height: 24rpx;
+  background-color: #21aa21;
+  position: relative;
+  top: 36rpx;
+}
+.back-head{
+  padding: 5rpx 20rpx;
+  display: flex;
+  justify-content: space-between;
+  font-size: 26rpx;
+}
+.back-time{
+  font-size: 18rpx;
+  letter-spacing: 1rpx;
+}
+.back-content{
+  padding: 0 20rpx;
+  word-break:break-all;
+  word-wrap:break-word;
+  font-size: 26rpx;
+  color: #000;
+}
+
+.text{
+  word-break:break-all;
+  word-wrap:break-word;
+  margin-top: 35rpx;
+  padding: 10rpx;
+  border: 1rpx solid #c8c8c8;
+  width: calc( 100% - 20rpx );
+  height: 80rpx;
+  background-color: #fff;
+}
+.back-text button{
+  word-break:break-all;
+  word-wrap:break-word;
+  margin-top: 20rpx;
+  width: 136rpx;
+  height: 49rpx;
+  float: right;
+  line-height: 49rpx;
+  font-size: 26rpx;
+  text-align: center;
+}
+.backId{
+  display: none;
+}

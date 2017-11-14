@@ -1,0 +1,46 @@
+<view class="section">
+  <form bindsubmit="bindFormSubmit">
+    <textarea placeholder="" name="textarea" class="textBox" />
+    <button form-type="submit" class="submitBtn" type="primary"> 提交 </button>
+  </form>
+</view>
+
+<block wx:for="{{feedList}}">
+  <view class="feed-l">
+    <image class="pic" src="{{item.pictrue}}" alt="no-repeat" />
+    <view class="right-box">
+      <view class="feedtime">{{item.datetime}}</view>
+      <view class="feedname">{{item.nickname}}</view>
+      <view class="feedcontent">{{item.content}}</view>
+      <!-- <view class="back-box">
+        <view class="line"></view>
+        <block>
+          <view class="back-green"></view>
+          <view class="back-head">
+            <text>后台回复</text>
+            <text class="back-time">2017-10-21</text>
+          </view>
+          <view class="back-content">
+            感谢您的回6复！！！
+          </view>
+        </block>
+        <block>
+          <view class="back-head">
+            <text>补充回复</text>
+            <text class="back-time">2017-10-21</text>
+          </view>
+          <view class="back-content">
+            感谢您的回复！！！
+          </view>
+        </block>
+        <view wx:if="{{power}}" class="back-text">
+          <form bindsubmit="bindBack">
+            <input name="backId" value="{{index}}" class='backId'></input>
+            <textarea placeholder="" name="backtext" class='text'></textarea>
+            <button form-type="submit" type="primary">发送</button>
+          </form>
+        </view>
+      </view> -->
+    </view>
+  </view>
+</block>
